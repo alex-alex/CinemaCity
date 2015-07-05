@@ -1,5 +1,5 @@
 # CinemaCity
-iOS app for CinemaCity.cz
+iOS aplikace pro CinemaCity.cz
 
 ![Screenshot 1](https://lh3.googleusercontent.com/cMHIfV24IsNNNA0BeGI7HSIYtXoENt3vvMF6m24CKPzi=w225-h400-no)
 ![Screenshot 2](https://lh3.googleusercontent.com/ncfD0XoL7jDEyCJM3pmWZT6MDN86hZvZlEVjUMmgeJKD=w225-h400-no)
