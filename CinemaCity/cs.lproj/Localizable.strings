@@ -1,0 +1,34 @@
+/* 
+  Localized.strings
+  CinemaCity
+
+  Created by Alex Studnicka on 27/03/14.
+  Copyright (c) 2014 Alex Studnicka. All rights reserved.
+*/
+
+"TODAY" = "Dnes";
+"SELECT" = "Vybrat";
+"OK" = "OK";
+"CANCEL" = "Zrušit";
+"BACK" = "Zpět";
+"MOVIES" = "Filmy";
+"SCHEDULE" = "Program";
+"MORE" = "Více";
+"MOVIE_DETAIL" = "Informace o filmu";
+"CLUB" = "Klub";
+"INFO" = "Info";
+"PRESENTATION_TIMES" = "Časy vysílání";
+"RESERVATION" = "Rezervace";
+"PURCHASE" = "Nákup";
+"CHOOSE_SEATS" = "Výběr sedadel";
+"TICKETS" = "Vstupenky";
+"LOGIN" = "Přihlásit";
+"LOGOUT" = "Odhlásit";
+"CHANGE_OF_PERSONAL_DATA" = "Změna osobních údajů";
+"SHOW_HISTORY" = "Zobrazit aktivity";
+"HISTORY" = "Pohyby na účtě";
+"ORDER" = "Objednávka";
+"RECAPITULATION" = "Rekapitulace";
+"USERNAME" = "Uživatel";
+"PASSWORD" = "Heslo";
+"UNKNOWN_ERROR_OCCURRED" = "Došlo k neznámé chybě.";
