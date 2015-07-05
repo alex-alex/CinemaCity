@@ -25,7 +25,9 @@
 	self.navigationItem.title = NSLocalizedString(@"HISTORY", nil);
 	
 	UIImageView *bgLogoImageView = [UIImageView new];
-	bgLogoImageView.frame = CGRectMake(0, 138, 320, 180);
+	bgLogoImageView.alpha = 0.2;
+	bgLogoImageView.frame = CGRectMake(0, 0, 320, 180);
+	bgLogoImageView.center = self.view.center;
 	bgLogoImageView.image = [UIImage imageNamed:@"bg_logo.png"];
 	bgLogoImageView.contentMode = UIViewContentModeCenter;
 	self.tableView.backgroundView = bgLogoImageView;

@@ -19,7 +19,9 @@ class RecapitulationViewController: UIViewController {
 		self.navigationItem.backBarButtonItem = UIBarButtonItem(title: NSLocalizedString("BACK", comment: ""), style: .Bordered, target: nil, action: nil)
 		
 		let bgLogoImageView = UIImageView()
-		bgLogoImageView.frame = CGRect(x: 0, y: 138+56, width: 320, height: 180)
+		bgLogoImageView.alpha = 0.2
+		bgLogoImageView.frame = CGRect(x: 0, y: 0, width: 320, height: 180)
+		bgLogoImageView.center = self.view.center
 		bgLogoImageView.image = UIImage(named: "bg_logo.png")
 		bgLogoImageView.contentMode = .Center
 		self.view.addSubview(bgLogoImageView)

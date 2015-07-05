@@ -26,7 +26,9 @@
 	self.navigationItem.title = NSLocalizedString(@"MOVIE_DETAIL", nil);
 	
 	UIImageView *bgLogoImageView = [UIImageView new];
-	bgLogoImageView.frame = CGRectMake(0, 138, 320, 180);
+	bgLogoImageView.alpha = 0.2;
+	bgLogoImageView.frame = CGRectMake(0, 0, 320, 180);
+	bgLogoImageView.center = self.view.center;
 	bgLogoImageView.image = [UIImage imageNamed:@"bg_logo.png"];
 	bgLogoImageView.contentMode = UIViewContentModeCenter;
 	self.tableView.backgroundView = bgLogoImageView;
@@ -44,8 +46,6 @@
 
 - (void)viewWillAppear:(BOOL)animated {
 	[super viewWillAppear:animated];
-	
-	NSLog(@"viewWillAppear");
 	
 	[UIApplication.sharedApplication setStatusBarHidden:NO withAnimation:(animated ? UIStatusBarAnimationSlide : UIStatusBarAnimationNone)];
 }

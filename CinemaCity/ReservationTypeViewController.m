@@ -22,7 +22,9 @@
 	self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"BACK", nil) style:UIBarButtonItemStyleBordered target:nil action:NULL];
 	
 	UIImageView *bgLogoImageView = [UIImageView new];
-	bgLogoImageView.frame = CGRectMake(0, 138+56, 320, 180);
+	bgLogoImageView.alpha = 0.2;
+	bgLogoImageView.frame = CGRectMake(0, 0, 320, 180);
+	bgLogoImageView.center = self.view.center;
 	bgLogoImageView.image = [UIImage imageNamed:@"bg_logo.png"];
 	bgLogoImageView.contentMode = UIViewContentModeCenter;
 	[self.view addSubview:bgLogoImageView];

@@ -14,7 +14,6 @@
 		FA253C8418E43323006C9746 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA253C8318E43323006C9746 /* UIKit.framework */; };
 		FA253C8C18E43323006C9746 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA253C8B18E43323006C9746 /* main.m */; };
 		FA253C9018E43323006C9746 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA253C8F18E43323006C9746 /* AppDelegate.m */; };
-		FA253C9818E43323006C9746 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA253C9718E43323006C9746 /* Images.xcassets */; };
 		FA253CBA18E43771006C9746 /* MoviesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA253CB918E43771006C9746 /* MoviesViewController.m */; };
 		FA253CC418E43B6B006C9746 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = FA253CBF18E43B6B006C9746 /* TFHpple.m */; };
 		FA253CC518E43B6B006C9746 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = FA253CC118E43B6B006C9746 /* TFHppleElement.m */; };
@@ -63,6 +62,7 @@
 		FAC26D8F1B4997EC00C64296 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC26D7F1B4997EC00C64296 /* UIView+WebCacheOperation.m */; };
 		FAC26D921B49982A00C64296 /* UIImageView+UIActivityIndicatorForSDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC26D911B49982A00C64296 /* UIImageView+UIActivityIndicatorForSDWebImage.m */; };
 		FAD1580C1954944F0041A7D1 /* RecapitulationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD1580B1954944F0041A7D1 /* RecapitulationViewController.swift */; };
+		FAD8224F1B49A681001FEDFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD8224E1B49A681001FEDFA /* Images.xcassets */; };
 		FADF8D2C18E4828800ECBC79 /* FAKFontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = FADF8D1E18E4828800ECBC79 /* FAKFontAwesome.m */; };
 		FADF8D2D18E4828800ECBC79 /* FAKFoundationIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = FADF8D2018E4828800ECBC79 /* FAKFoundationIcons.m */; };
 		FADF8D2E18E4828800ECBC79 /* FAKIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = FADF8D2218E4828800ECBC79 /* FAKIcon.m */; };
@@ -89,7 +89,6 @@
 		FA253C8B18E43323006C9746 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FA253C8E18E43323006C9746 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FA253C8F18E43323006C9746 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FA253C9718E43323006C9746 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FA253C9E18E43323006C9746 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		FA253CB818E43771006C9746 /* MoviesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviesViewController.h; sourceTree = "<group>"; };
 		FA253CB918E43771006C9746 /* MoviesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviesViewController.m; sourceTree = "<group>"; };
@@ -184,6 +183,7 @@
 		FAC26D911B49982A00C64296 /* UIImageView+UIActivityIndicatorForSDWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+UIActivityIndicatorForSDWebImage.m"; sourceTree = "<group>"; };
 		FAD1580A1954944F0041A7D1 /* CinemaCity-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CinemaCity-Bridging-Header.h"; sourceTree = "<group>"; };
 		FAD1580B1954944F0041A7D1 /* RecapitulationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecapitulationViewController.swift; sourceTree = "<group>"; };
+		FAD8224E1B49A681001FEDFA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FADF8D1D18E4828800ECBC79 /* FAKFontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAKFontAwesome.h; sourceTree = "<group>"; };
 		FADF8D1E18E4828800ECBC79 /* FAKFontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAKFontAwesome.m; sourceTree = "<group>"; };
 		FADF8D1F18E4828800ECBC79 /* FAKFoundationIcons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAKFoundationIcons.h; sourceTree = "<group>"; };
@@ -298,7 +298,7 @@
 		FA253C8618E43323006C9746 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FA253C9718E43323006C9746 /* Images.xcassets */,
+				FAD8224E1B49A681001FEDFA /* Images.xcassets */,
 				FA253C8B18E43323006C9746 /* main.m */,
 				FA2FD06518E4A2A3005B39BA /* Localizable.strings */,
 				FADF8D3518E482B800ECBC79 /* CinemaCity-Info.plist */,
@@ -692,10 +692,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FADF8D3418E4828800ECBC79 /* zocial-regular-webfont.ttf in Resources */,
+				FAD8224F1B49A681001FEDFA /* Images.xcassets in Resources */,
 				FADF8D3118E4828800ECBC79 /* FontAwesome.otf in Resources */,
 				FA2FD06718E4A2A3005B39BA /* Localizable.strings in Resources */,
 				FA2FD08618E6E4A0005B39BA /* Main.storyboard in Resources */,
-				FA253C9818E43323006C9746 /* Images.xcassets in Resources */,
 				FA5258491AED3CC20001A57A /* Launch Screen.xib in Resources */,
 				FADF8D3318E4828800ECBC79 /* ionicons.ttf in Resources */,
 				FADF8D3218E4828800ECBC79 /* foundation-icons.ttf in Resources */,

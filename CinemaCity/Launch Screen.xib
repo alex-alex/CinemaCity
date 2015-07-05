@@ -11,7 +11,7 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="pm7-M2-lxc">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_logo" translatesAutoresizingMaskIntoConstraints="NO" id="pm7-M2-lxc">
                     <rect key="frame" x="80" y="150" width="320" height="180"/>
                     <animations/>
                     <constraints>
@@ -32,6 +32,6 @@
         </view>
     </objects>
     <resources>
-        <image name="logo" width="320" height="180"/>
+        <image name="bg_logo" width="320" height="180"/>
     </resources>
 </document>
