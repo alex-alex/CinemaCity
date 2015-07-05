@@ -42,6 +42,18 @@
 	
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+	[super viewWillAppear:animated];
+	
+	NSLog(@"viewWillAppear");
+	
+	[UIApplication.sharedApplication setStatusBarHidden:NO withAnimation:(animated ? UIStatusBarAnimationSlide : UIStatusBarAnimationNone)];
+}
+
+- (BOOL)prefersStatusBarHidden {
+	return NO;
+}
+
 #pragma mark - Refresh
 
 - (void)refresh {
